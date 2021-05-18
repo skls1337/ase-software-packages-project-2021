@@ -1,4 +1,4 @@
-import statsmodels.api as sm
+import statsmodels.formula.api as sm
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -19,7 +19,7 @@ df = pd.read_csv('./resources/festival_ticks_sales.csv')
 print(df.head())
 
 
-# Plot a line graphic
+# # Plot a line graphic
 df.plot(kind='line', title='Number of tickets sold')
 plt.legend(bbox_to_anchor=(1.12, 1), loc='upper right', title='Festivals')
 plt.show()
@@ -64,8 +64,8 @@ for window in windows:
     plt.show()
 
 # Create a linear regression model check if Untold tickets sales
-# are related to Neversea and Burning Man tickets sales using a OLS
+# are related to Tommorowland, Neversea and sunwaves tickets sales using a OLS
 # regression model
-model = sm.OLS(df['Untold'], df['Neversea'])
+model = sm.ols('Untold ~ Tomorrowland + Neversea + sunwaves', data=df)
 res = model.fit()
 print(res.summary())
