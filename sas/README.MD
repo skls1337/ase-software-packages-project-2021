@@ -20,8 +20,8 @@ Combining or using separately, use minimum 6 of the following facilities:
 - [ ] joins;
 - [x] using prompts;
 - [x] a report;
-- [ ] a chart;
-- [ ] a statistical processing;
+- [x] a chart;
+- [x] a statistical processing;
 - [ ] user defined formats;
 - [ ] creating a composed document;
 - [ ] user-defined styles;
