@@ -3,13 +3,13 @@
 Combining or using separately, use minimum 6 of the following facilities:
 
 - [x] creatinga SAS data set from external files;
-- [ ] creating and using user-defined  formats;
-- [ ] iterative  and  conditional  processing  of  data;
+- [x] creating and using user-defined  formats;
+- [x] iterative  and  conditional  processing  of  data;
 - [ ] creating data subsets;
 - [ ] using SAS  functions;
-- [ ] combining  data  sets  with  specific  SAS  and  SQL procedures;
+- [x] combining  data  sets  with  specific  SAS  and  SQL procedures;
 - [ ] using arrays;
-- [x] using  report procedures;
+- [ ] using  report procedures;
 - [x] using  statistical  procedures;
 - [x] generating graphs;
 
